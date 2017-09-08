@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'abcd';
+    src: url('../fonts/BebasNeue.otf');
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    background-image: url('../images/banner.png');
+    background-size: cover;
+
+    height: 490px;
+    width: 100%;
+}
+
+.logo {
+    /*margin-left: 30px;
+    margin-top: 25px;*/
+    margin: 25px 0px 0px 30px;
+}
+
+nav {
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+nav ul li {
+    /*float: right;*/
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'abcd';
+}
+
+.container {
+    height: 700px;
+    width: 880px;
+    background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,black);
+
+    background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,black);
+
+    background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,black);
+
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,black);
+    margin: auto;
+    padding-top: 0px;
+}
+
+.container .slider {
+    width: 80%;
+    box-shadow: 3px 4px 5px #999;
+    margin: 0  auto 40px auto;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container h1,p {
+    width: 80%;
+    margin: auto;
+    /*border:1px solid red;*/
+}
+footer {
+    background-image: url('../images/TI.jpg');
+    background-size: cover;
+
+    height: 490px;
+    width: 100%;
+}
